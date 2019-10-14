@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: com.rain.spring.api.RainSpringApiApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 2.445 s <<< FAILURE! - in com.rain.spring.api.RainSpringApiApplicationTests
+contextLoads(com.rain.spring.api.RainSpringApiApplicationTests)  Time elapsed: 0.002 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.rain.spring.api.RainSpringApiApplication] from ClassLoader [sun.misc.Launcher$AppClassLoader@6bc7c054]
+Caused by: java.lang.NoClassDefFoundError: org/springframework/data/jpa/repository/JpaRepository
+Caused by: java.lang.ClassNotFoundException: org.springframework.data.jpa.repository.JpaRepository
+
